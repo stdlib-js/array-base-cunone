@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@esm/index.mjs';
+import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@v0.1.0-esm/index.mjs';
 ```
 
 #### cunone( x )
@@ -107,7 +107,7 @@ The function supports the following parameters:
 <script type="module">
 
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@esm/index.mjs';
+import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@v0.1.0-esm/index.mjs';
 
 // Create an array of random values:
 var x = bernoulli( 10, 0.1 );
