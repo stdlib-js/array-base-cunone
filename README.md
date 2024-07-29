@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-cunone/tags). For example,
+
+```javascript
 import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@v0.1.0-deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@deno/mod.js';
 ```
 
 #### cunone( x )
@@ -102,7 +107,7 @@ The function supports the following parameters:
 
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@v0.1.0-deno/mod.js';
+import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@deno/mod.js';
 
 // Create an array of random values:
 var x = bernoulli( 10, 0.1 );
