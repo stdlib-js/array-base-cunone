@@ -35,20 +35,32 @@ limitations under the License.
 
 > Cumulatively test whether every element in a provided array is falsy.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-cunone
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@esm/index.mjs';
+var cunone = require( '@stdlib/array-base-cunone' );
 ```
 
 #### cunone( x )
@@ -100,14 +112,9 @@ The function supports the following parameters:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import cunone from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cunone@esm/index.mjs';
+```javascript
+var bernoulli = require( '@stdlib/random-array-bernoulli' );
+var cunone = require( '@stdlib/array-base-cunone' );
 
 // Create an array of random values:
 var x = bernoulli( 10, 0.1 );
@@ -116,10 +123,6 @@ console.log( x );
 // Cumulatively determine whether values are falsy:
 var out = cunone( x );
 console.log( out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -143,7 +146,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
