@@ -50,9 +50,9 @@
   },
   "devDependencies": {
     "@stdlib/array-base-to-accessor-array": "^0.2.2",
-    "@stdlib/array-bool": "^0.1.0",
-    "@stdlib/array-complex128": "^0.3.0",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-bool": "^0.1.1",
+    "@stdlib/array-complex128": "^0.3.1",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-array": "^0.2.2",
